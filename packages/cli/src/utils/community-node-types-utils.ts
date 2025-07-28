@@ -1,6 +1,6 @@
 import type { INodeTypeDescription } from 'n8n-workflow';
 
-import { paginatedRequest } from './strapi-utils';
+import { paginatedRequest } from '../community-packages/strapi-utils';
 
 export type StrapiCommunityNodeType = {
 	authorGithubUrl: string;

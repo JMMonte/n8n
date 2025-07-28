@@ -107,4 +107,14 @@ export default defineConfig(
 			'n8n-local-rules/no-constructor-in-backend-module': 'error',
 		},
 	},
+	{
+		'import-x/extensions': [
+			'warn',
+			'ignorePackages',
+			{
+				error: 'never',
+				service: 'never',
+			},
+		],
+	},
 );
