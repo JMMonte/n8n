@@ -1,6 +1,6 @@
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryColumn } from '@n8n/typeorm';
 
-import { InstalledPackages } from './installed-packages';
+import { InstalledPackages } from './installed-packages.entity';
 
 @Entity()
 export class InstalledNodes {

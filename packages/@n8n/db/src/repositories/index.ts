@@ -11,8 +11,6 @@ export { ExecutionRepository } from './execution.repository';
 export { EventDestinationsRepository } from './event-destinations.repository';
 export { FolderRepository } from './folder.repository';
 export { FolderTagMappingRepository } from './folder-tag-mapping.repository';
-export { InstalledNodesRepository } from './installed-nodes.repository';
-export { InstalledPackagesRepository } from './installed-packages.repository';
 export { InvalidAuthTokenRepository } from './invalid-auth-token.repository';
 export { LicenseMetricsRepository } from './license-metrics.repository';
 export { ProjectRelationRepository } from './project-relation.repository';
