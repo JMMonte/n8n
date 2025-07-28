@@ -1,5 +1,8 @@
-import { type InstalledNodes, type InstalledPackages, type User } from '@n8n/db';
-import { CredentialsRepository, InstalledNodesRepository, UserRepository } from '@n8n/db';
+import type { User } from '@n8n/db';
+import type { InstalledNodes } from '@/community-packages/installed-nodes.entity';
+import type { InstalledPackages } from '@/community-packages/installed-packages.entity';
+import { InstalledNodesRepository } from '@/community-packages/installed-nodes.repository';
+import { CredentialsRepository, UserRepository } from '@n8n/db';
 import { Command } from '@n8n/decorators';
 import { Container } from '@n8n/di';
 import { z } from 'zod';

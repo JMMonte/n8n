@@ -1,5 +1,8 @@
 import { randomName } from '@n8n/backend-test-utils';
-import { InstalledPackages, InstalledNodesRepository, InstalledPackagesRepository } from '@n8n/db';
+import { InstalledPackages } from '../../../../src/community-packages/installed-packages.entity';
+import { InstalledPackagesRepository } from '../../../../src/community-packages/installed-packages.repository';
+import { InstalledNodesRepository } from '../../../../src/community-packages/installed-nodes.repository';
+
 import { Container } from '@n8n/di';
 
 import { NODE_PACKAGE_PREFIX } from '@/constants';

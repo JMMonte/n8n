@@ -3,7 +3,7 @@ import {
 	STARTER_TEMPLATE_NAME,
 	UNKNOWN_FAILURE_REASON,
 } from '@/constants';
-import type { InstalledPackages } from '@n8n/db';
+import type { InstalledPackages } from './installed-packages.entity';
 import { Delete, Get, Patch, Post, RestController, GlobalScope } from '@n8n/decorators';
 
 import type { CommunityPackages } from './community-packages.types';

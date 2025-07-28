@@ -32,7 +32,7 @@ describe('FrontendService', () => {
 				endpoints: { rest: 'rest' },
 				diagnostics: { enabled: false },
 				templates: { enabled: false, host: '' },
-				nodes: { communityPackages: { enabled: false } },
+				nodes: {},
 				tags: { disabled: false },
 				logging: { level: 'info' },
 				hiringBanner: { enabled: false },

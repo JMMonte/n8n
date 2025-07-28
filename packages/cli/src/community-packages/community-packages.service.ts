@@ -7,10 +7,9 @@ import {
 } from '@/constants';
 import { toError } from '@/utils';
 import { Logger } from '@n8n/backend-common';
-import { GlobalConfig } from '@n8n/config';
 import { LICENSE_FEATURES } from '@n8n/constants';
-import type { InstalledPackages } from '@n8n/db';
-import { InstalledPackagesRepository } from '@n8n/db';
+import type { InstalledPackages } from './installed-packages.entity';
+import { InstalledPackagesRepository } from './installed-packages.repository';
 import { OnPubSubEvent } from '@n8n/decorators';
 import { Service } from '@n8n/di';
 import axios from 'axios';
