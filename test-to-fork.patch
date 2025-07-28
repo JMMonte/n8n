@@ -1,0 +1,20 @@
+From 1ea8420dd34acdd6aa98c5eac36e1c0b063466dc Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Jo=C3=A3o=20Montenegro?= <joaommontenegro1@gmail.com>
+Date: Mon, 28 Jul 2025 17:00:44 +0100
+Subject: [PATCH] test: Add test file for commit extraction
+
+---
+ test-commit.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test-commit.txt
+
+diff --git a/test-commit.txt b/test-commit.txt
+new file mode 100644
+index 0000000..3b5af65
+--- /dev/null
++++ b/test-commit.txt
+@@ -0,0 +1 @@
++This is a test commit for extraction
+-- 
+2.39.5 (Apple Git-154)
+
